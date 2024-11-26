@@ -141,7 +141,7 @@ Once the Docker image is committed, the next step is to clone the repository int
 # Move into the working directory
 cd /home/leonardo/Documents/RobotProgramming
 # Clone the SimpleRViz GitHub repository
-git clone https://github.com/luigi-ga/SimpleRViz.git
+git clone https://github.com/LeonardoMontella/RobotProgramming
 ```
 This will create the `/home/<usr>/Documents/RobotProgramming/SimpleRViz` directory on your local machine.
 
