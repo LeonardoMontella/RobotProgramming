@@ -11,8 +11,8 @@ mkdir srrg
 cd srrg
 
 # Create the source folder where all repositories will be cloned
-mkdir source
-cd source
+mkdir src
+cd src
 
 # List of repositories to be cloned
 repos=(
