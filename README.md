@@ -144,7 +144,11 @@ cd /home/leonardo/Documents/RobotProgramming
 git clone https://github.com/LeonardoMontella/RobotProgramming.git
 ```
 This will create the `/home/<usr>/Documents/RobotProgramming/RobotProgramming` directory on your local machine.
-Rename the folder 
+Rename the folder writing this command:
+```bash
+mv RobotProgramming SimpleRViz
+```
+So now you will have `/home/<usr>/Documents/RobotProgramming/SimpleRViz`.
 
 If there's an issue with a package and the localize and planner nodes cannot start, you can automatically fix the `dl.conf` file by running the following script. This will update the file and save it to the root directory:
 
