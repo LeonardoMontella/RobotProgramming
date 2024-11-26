@@ -333,7 +333,7 @@ Now, return to the root of your workspace, build the workspace, and run the node
 # Source the ROS setup file (this step is always required)
 source /opt/ros/noetic/setup.bash
 
-# Initialize and build the workspace using all available cores (feel free to adjust the number of cores used)
+# Initialize and build the workspace
 cd ~/catkin_ws_rp/src
 catkin_init_workspace
 cd ..
@@ -346,4 +346,4 @@ source ~/catkin_ws_rp/devel/setup.bash
 rosrun simple_rviz simple_rviz
 ```
 
-These commands will initialize, build, and run the node, utilizing the available CPU cores to speed up the build process.
+These commands will initialize, build, and run the node.
