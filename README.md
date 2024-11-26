@@ -141,9 +141,10 @@ Once the Docker image is committed, the next step is to clone the repository int
 # Move into the working directory
 cd /home/leonardo/Documents/RobotProgramming
 # Clone the SimpleRViz GitHub repository
-git clone https://github.com/LeonardoMontella/RobotProgramming
+git clone https://github.com/LeonardoMontella/RobotProgramming.git
 ```
-This will create the `/home/<usr>/Documents/RobotProgramming/SimpleRViz` directory on your local machine.
+This will create the `/home/<usr>/Documents/RobotProgramming/RobotProgramming` directory on your local machine.
+Rename the folder 
 
 If there's an issue with a package and the localize and planner nodes cannot start, you can automatically fix the `dl.conf` file by running the following script. This will update the file and save it to the root directory:
 
