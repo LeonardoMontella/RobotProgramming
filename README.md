@@ -346,4 +346,4 @@ source ~/catkin_ws_rp/devel/setup.bash
 rosrun simple_rviz simple_rviz
 ```
 
-These commands will initialize, build, and run the node.
+These commands will initialize, build, and run the node. (Do this for the first time and whenever you made a change inside the .ccp file)
