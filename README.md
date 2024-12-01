@@ -143,10 +143,10 @@ cd /home/leonardo/Documents/RobotProgramming
 # Clone the SimpleRViz GitHub repository
 git clone https://github.com/LeonardoMontella/RobotProgramming.git
 ```
-This will create the `/home/<usr>/Documents/RobotProgramming/RobotProgramming` directory on your local machine.
+This will create the `/home/<usr>/Documents/RobotProgramming/RobotProgramming-master` directory on your local machine.
 Rename the folder writing this command:
 ```bash
-mv RobotProgramming SimpleRViz
+mv RobotProgramming-master SimpleRViz
 ```
 So now you will have `/home/<usr>/Documents/RobotProgramming/SimpleRViz`.
 
